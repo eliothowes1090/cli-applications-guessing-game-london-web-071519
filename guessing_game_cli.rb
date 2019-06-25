@@ -15,7 +15,7 @@ end
 def run_guessing_game
   computer_number
   player_number
-  
+
   if computer_number == player_number
     puts "You guessed the correct number!"
   elsif player_number == 0
