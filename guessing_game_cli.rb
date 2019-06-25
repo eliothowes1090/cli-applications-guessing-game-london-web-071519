@@ -13,10 +13,12 @@ def run_guessing_game
     end
     computer_number = rand(6) + 1
     player_guess = gets.chomp.to_i
-  end
-
-  if player_guess == 'exit'
+    break if player_guess == 'exit'
     puts "Goodbye!"
   end
+
+  # if player_guess == 'exit'
+  #   puts "Goodbye!"
+  # end
 
 end
