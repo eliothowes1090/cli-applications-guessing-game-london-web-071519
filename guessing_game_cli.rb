@@ -8,5 +8,5 @@ def run_guessing_game
     if player_guess == computer_number
       return "You guessed the correct number!"
     end
-  
+
 end
