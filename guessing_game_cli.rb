@@ -14,6 +14,8 @@ def run_guessing_game
     computer_number = rand(6) + 1
     puts "Select a number between 1 and 6"
     player_guess = gets.chomp.to_i
+
+    return "goodbye"
   end
 
   if player_guess == 'exit'
