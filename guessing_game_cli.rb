@@ -6,7 +6,7 @@ def run_guessing_game
   player_guess = gets.chomp.to_i
 
   while player_guess != 'exit' do
-    player_guess == computer_number ? p "You guessed the correct number!" : p "Sorry! The computer guessed #{computer_number}."
+    player_guess == computer_number ? puts "You guessed the correct number!" : puts "Sorry! The computer guessed #{computer_number}."
   end
 
   if player_guess == 'exit'
