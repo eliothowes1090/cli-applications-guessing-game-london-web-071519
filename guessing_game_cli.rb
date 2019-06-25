@@ -15,7 +15,7 @@ def run_guessing_game
     puts "Select a number between 1 and 6"
     player_guess = gets.chomp.to_i
 
-    return "goodbye"
+    puts "goodbye"
   end
 
   if player_guess == 'exit'
